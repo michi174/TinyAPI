@@ -1,0 +1,11 @@
+/lol/match/v4/matches/{matchId}/by-tournament-code/{tournamentCode}
+
+/api/user/v1/users/{userId}
+/api/user/v1/users/{userName}/by-username/
+/api/user/v1/userlist/?start=0&end=100&sort=desc
+
+/api/group/v1/groups/{userID}/by-userId/
+/api/group/v1/grouplist/?sortBy=name&sort=desc
+/api/group/v1/groupmembers/{groupId}
+
+
