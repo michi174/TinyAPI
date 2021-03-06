@@ -7,7 +7,6 @@ use TinyAPI\TinyAPI;
 $api = TinyAPI::get();
 $text = "";
 
-
 $text .= "\n";
 $text .= "URI: ".$api->request->uri;
 $text .= "\n";
@@ -42,6 +41,6 @@ $api->run();
 
 echo json_encode($api->response);
 
-//echo ($text);
+echo ($text);
 
 ?>

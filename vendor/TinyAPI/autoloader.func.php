@@ -3,7 +3,9 @@
 function autoloader($klasse)
 {
 
-    $include	= $_SERVER["DOCUMENT_ROOT"]."/vendor/".str_replace("\\", "/", $klasse).".php";
+	$include	= $_SERVER["DOCUMENT_ROOT"]."/vendor/".str_replace("\\", "/", $klasse).".php";
+	
+	//echo ($klasse." \n");
 	
 	if(file_exists($include))
 	{
